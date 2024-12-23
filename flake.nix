@@ -87,6 +87,8 @@
                             };
 
                             finder = {
+                                _FXSortFoldersFirst = true;
+
                                 NewWindowTarget = "Home";
 				FXPreferredViewStyle = "Nlsv";
 
