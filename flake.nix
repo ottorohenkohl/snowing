@@ -64,9 +64,6 @@
                                 show-process-indicators = false;
                                 show-recents = false;
 
-                                wvous-bl-corner = 11;
-                                wvous-br-corner = 11;
-
                                 persistent-apps = [
                                     "/Applications/Safari.app"
                                     "/System/Applications/App Store.app"
