@@ -6,7 +6,7 @@
     };
 
     outputs = inputs@{ darwin, ... }: {
-        darwinConfigurations.MacBook-Air-von-Otto = darwin.lib.darwinSystem {
+        darwinConfigurations.MacBook-Otto = darwin.lib.darwinSystem {
             system = "aarch64-darwin";
 
             modules = [
@@ -18,6 +18,7 @@
                         kotlin
                         kubectl
                         k9s
+                        jdk
                         jetbrains.goland
                         jetbrains.idea-ultimate
                         jetbrains.pycharm-professional
@@ -26,8 +27,8 @@
                     ];
 
                     networking = {
-                        computerName = "MacBook-Air-von-Otto";
-                        hostName = "MacBook-Air-von-Otto";
+                        computerName = "MacBook-Otto";
+                        hostName = "MacBook-Otto";
                     };
 
                     nix.extraOptions = "\nexperimental-features = nix-command flakes\n";
