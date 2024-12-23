@@ -63,6 +63,9 @@
                                 minimize-to-application = true;
                                 show-process-indicators = false;
                                 show-recents = false;
+             
+                                wvous-bl-corner = 1;
+                                wvous-br-corner = 1;
 
                                 persistent-apps = [
                                     "/Applications/Safari.app"
