@@ -44,6 +44,12 @@
                         computer = 10;
                         display = 5;
                     };
+
+                    programs.zsh = {
+                        enable = true;
+                        enableFastSyntaxHighlighting = true;
+                        enableSyntaxHighlighting = true;
+                    };
                     
 		    security.pam.enableSudoTouchIdAuth = true;
 
@@ -82,6 +88,7 @@
 
                             finder = {
                                 NewWindowTarget = "Home";
+				FXPreferredViewStyle = "Nlsv";
 
                                 FXRemoveOldTrashItems = true;
                                 QuitMenuItem = true;
