@@ -90,6 +90,7 @@
                                 _FXSortFoldersFirst = true;
 
                                 NewWindowTarget = "Home";
+				FXDefaultSearchScope = "SCcf";
 				FXPreferredViewStyle = "Nlsv";
 
                                 FXRemoveOldTrashItems = true;
