@@ -1,4 +1,3 @@
-
 # Snowing
 
 [![pipeline status](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/badges/main/pipeline.svg)](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/-/commits/main) [![coverage report](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/badges/main/coverage.svg)](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/-/commits/main) [![Latest Release](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/-/badges/release.svg)](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/-/releases)
@@ -73,3 +72,7 @@ programs.dock.settings.show-recents = false;
 - [Nix](https://nixos.org/) – Dokumentation zu Nix.
 - [Nix-Darwin](https://github.com/LnL7/nix-darwin) – Nix-Darwin GitHub-Repository.
 - [Nix Flakes](https://nixos.wiki/wiki/Flakes) – Einführung in Nix Flakes.
+
+---
+
+Dieses Repository wird automatisch von [Otto Rohenkohl / Lab](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing) gespiegelt.
