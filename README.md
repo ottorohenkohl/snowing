@@ -1,7 +1,7 @@
 
 # Snowing
 
-[![pipeline status](http://lab.ottorohenkohl.de/entwicklung/nix/snowing/badges/main/pipeline.svg)](http://lab.ottorohenkohl.de/entwicklung/nix/snowing/-/commits/main) [![coverage report](http://lab.ottorohenkohl.de/entwicklung/nix/snowing/badges/main/coverage.svg)](http://lab.ottorohenkohl.de/entwicklung/nix/snowing/-/commits/main) [![Latest Release](http://lab.ottorohenkohl.de/entwicklung/nix/snowing/-/badges/release.svg)](http://lab.ottorohenkohl.de/entwicklung/nix/snowing/-/releases)
+[![pipeline status](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/badges/main/pipeline.svg)](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/-/commits/main) [![coverage report](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/badges/main/coverage.svg)](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/-/commits/main) [![Latest Release](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/-/badges/release.svg)](http://lab.ottorohenkohl.de/infrastruktur/nix/snowing/-/releases)
 
 **Snowing** ist ein Nix-Repository, das die Flake-Konfiguration für ein macOS-System mit **Nix-Darwin** bereitstellt. Es enthält die grundlegenden Konfigurationsdateien `flake.nix` und `flake.lock`, die die gesamte Systemkonfiguration definieren.
 
