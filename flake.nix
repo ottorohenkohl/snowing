@@ -34,7 +34,7 @@
 
                     nix.extraOptions = "\nexperimental-features = nix-command flakes\n";
 
-		    nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+		            nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
                         "goland"
                         "idea-ultimate"
                         "pycharm-professional"
@@ -48,11 +48,10 @@
 
                     programs.zsh = {
                         enable = true;
-                        enableFastSyntaxHighlighting = true;
                         enableSyntaxHighlighting = true;
                     };
                     
-		    security.pam.enableSudoTouchIdAuth = true;
+		            security.pam.enableSudoTouchIdAuth = true;
 
                     services.nix-daemon.enable = true;
 
@@ -91,8 +90,8 @@
                                 _FXSortFoldersFirst = true;
 
                                 NewWindowTarget = "Home";
-				FXDefaultSearchScope = "SCcf";
-				FXPreferredViewStyle = "Nlsv";
+				                FXDefaultSearchScope = "SCcf";
+				                FXPreferredViewStyle = "Nlsv";
 
                                 FXRemoveOldTrashItems = true;
                                 QuitMenuItem = true;
