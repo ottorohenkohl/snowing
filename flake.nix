@@ -15,6 +15,7 @@
                         dart
                         gimp
                         go
+                        inkscape
                         kotlin
                         kubectl
                         k9s
