@@ -13,7 +13,7 @@
                 ({ pkgs, lib, ... }: {
                     environment.systemPackages = with pkgs; [
                         dart
-                        ghostscript_headless
+                        ghostscript
                         gimp
                         go
                         inkscape
