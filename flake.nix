@@ -26,6 +26,7 @@
                         jetbrains.pycharm-professional
                         jetbrains.webstorm
                         nmap
+                        obsidian
                         texliveFull
                     ];
 
