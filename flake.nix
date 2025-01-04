@@ -25,6 +25,7 @@
                         jetbrains.pycharm-professional
                         jetbrains.webstorm
                         nmap
+                        texliveFull
                     ];
 
                     networking = {
