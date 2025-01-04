@@ -40,6 +40,7 @@
 					nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
 						"goland"
 						"idea-ultimate"
+						"obsidian"
 						"pycharm-professional"
 						"webstorm"
 					];
