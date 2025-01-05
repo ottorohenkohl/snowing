@@ -38,6 +38,8 @@
 
 					nix.extraOptions = "\nexperimental-features = nix-command flakes\n";
 
+                    nixpkgs.config.allowUnsupportedSystem = true;
+
 					nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
 						"goland"
 						"idea-ultimate"
