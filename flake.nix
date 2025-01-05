@@ -17,6 +17,7 @@
 						gimp
 						go
 						inkscape
+						insomnia
 						kotlin
 						kubectl
 						k9s
@@ -40,6 +41,7 @@
 					nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
 						"goland"
 						"idea-ultimate"
+						"insomnia"
 						"obsidian"
 						"pycharm-professional"
 						"webstorm"
