@@ -17,7 +17,6 @@
 						gimp
 						go
 						inkscape
-						insomnia
 						kotlin
 						kubectl
 						k9s
@@ -28,6 +27,7 @@
 						jetbrains.webstorm
 						nmap
 						obsidian
+						postman
 						texliveFull
 					];
 
@@ -45,6 +45,7 @@
 						"idea-ultimate"
 						"insomnia"
 						"obsidian"
+						"postman"
 						"pycharm-professional"
 						"webstorm"
 					];
