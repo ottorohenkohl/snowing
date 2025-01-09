@@ -38,7 +38,6 @@
 
                         onActivation = {
                             autoUpdate = true;
-                            cleanup = true;
                             upgrade = true;
                         };
                     };
