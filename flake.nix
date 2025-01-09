@@ -81,8 +81,6 @@
 									"/Applications/Safari.app"
 									"/System/Applications/App Store.app"
 									"/System/Applications/Mail.app"
-									"/System/Applications/FaceTime.app"
-									"/System/Applications/Messages.app"
 									"/System/Applications/Notes.app"
 									"/System/Applications/Calendar.app"
 									"/System/Applications/Reminders.app"
@@ -91,7 +89,6 @@
 									"/Applications/Webstorm.app"
 									"/System/Applications/Photos.app"
 									"/System/Applications/TV.app"
-									"/System/Applications/Podcasts.app"
 									"/System/Applications/Music.app"
 								];
 							};
