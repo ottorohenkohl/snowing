@@ -27,10 +27,10 @@
 					    casks = [
 					        "gimp"
                             "goland"
-                            "outlook"
                             "inkscape"
                             "insomnia"
                             "intellij-idea"
+                            "microsoft-outlook"
                             "pycharm"
                             "webstorm"
                         ];
