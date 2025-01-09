@@ -71,6 +71,8 @@
 								minimize-to-application = true;
 								show-process-indicators = false;
 								show-recents = false;
+
+								orientation = "right";
 			 
 								wvous-bl-corner = 1;
 								wvous-br-corner = 1;
@@ -114,6 +116,11 @@
 								NSAutomaticSpellingCorrectionEnabled = false;
 								NSNavPanelExpandedStateForSaveMode = true;
 							};
+
+							WindowManager = {
+                                GloballyEnabled = true;
+                                StandardHideDesktopIcons = false;
+                            };
 						};
 
 						stateVersion = 5;
