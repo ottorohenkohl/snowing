@@ -14,22 +14,34 @@
 					environment.systemPackages = with pkgs; [
 						dart
 						ghostscript
-						gimp
 						go
-						inkscape
 						kotlin
 						kubectl
 						k9s
 						jdk
-						jetbrains.goland
-						jetbrains.idea-ultimate
-						jetbrains.pycharm-professional
-						jetbrains.webstorm
 						nmap
-						obsidian
-						postman
 						texliveFull
 					];
+
+					homebrew = {
+					    casks = [
+					        "gimp"
+                            "goland"
+                            "inkscape"
+                            "insomnia"
+                            "intellij-idea"
+                            "pycharm"
+                            "webstorm"
+                        ];
+
+                        enable = true;
+
+                        onActivation = {
+                            autoUpdate = true;
+                            cleanup = true;
+                            upgrade = true;
+                        };
+                    };
 
 					networking = {
 						computerName = "MacBook-Otto";
@@ -37,18 +49,6 @@
 					};
 
 					nix.extraOptions = "\nexperimental-features = nix-command flakes\n";
-
-                    nixpkgs.config.allowUnsupportedSystem = true;
-
-					nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
-						"goland"
-						"idea-ultimate"
-						"insomnia"
-						"obsidian"
-						"postman"
-						"pycharm-professional"
-						"webstorm"
-					];
 
 					power.sleep = {
 						computer = 10;
@@ -85,9 +85,9 @@
 									"/System/Applications/Notes.app"
 									"/System/Applications/Calendar.app"
 									"/System/Applications/Reminders.app"
-									"/Applications/Nix Apps/GoLand.app"
-									"/Applications/Nix Apps/IntelliJ IDEA.app"
-									"/Applications/Nix Apps/Webstorm.app"
+									"/Applications/GoLand.app"
+									"/Applications/IntelliJ IDEA.app"
+									"/Applications/Webstorm.app"
 									"/System/Applications/Photos.app"
 									"/System/Applications/TV.app"
 									"/System/Applications/Podcasts.app"
