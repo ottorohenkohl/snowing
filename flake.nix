@@ -33,6 +33,7 @@
                             "microsoft-outlook"
                             "pycharm"
                             "webstorm"
+                            "whatsapp"
                         ];
 
                         enable = true;
