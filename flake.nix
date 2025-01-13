@@ -20,6 +20,7 @@
 						k9s
 						jdk
 						nmap
+						speedtest-cli
 						texliveFull
 					];
 
