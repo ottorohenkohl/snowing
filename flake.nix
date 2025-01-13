@@ -32,6 +32,7 @@
                             "intellij-idea"
                             "microsoft-outlook"
                             "pycharm"
+                            "racket"
                             "webstorm"
                             "whatsapp"
                         ];
