@@ -31,6 +31,7 @@
                             "inkscape"
                             "insomnia"
                             "intellij-idea"
+                            "obsidian"
                             "pycharm"
                             "racket"
                             "webstorm"
