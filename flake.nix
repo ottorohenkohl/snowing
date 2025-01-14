@@ -20,7 +20,7 @@
 						k9s
 						jdk
 						nmap
-						speedtest-cli
+						speedtest-clia
 						texliveFull
 					];
 
@@ -31,7 +31,6 @@
                             "inkscape"
                             "insomnia"
                             "intellij-idea"
-                            "microsoft-outlook"
                             "pycharm"
                             "racket"
                             "webstorm"
