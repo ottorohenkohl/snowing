@@ -13,6 +13,7 @@
 				({ pkgs, lib, ... }: {
 					environment.systemPackages = with pkgs; [
 						dart
+						fluxcd
 						ghostscript
 						go
 						kotlin
