@@ -20,6 +20,7 @@
 						k9s
 						jdk
 						nmap
+						podman
 						speedtest-cli
 						texliveFull
 					];
