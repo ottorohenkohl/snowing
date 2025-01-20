@@ -15,6 +15,7 @@
 						dart
 						fluxcd
 						ghostscript
+						glab
 						go
 						kotlin
 						kubectl
