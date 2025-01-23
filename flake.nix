@@ -12,6 +12,7 @@
 			modules = [
 				({ pkgs, lib, ... }: {
 					environment.systemPackages = with pkgs; [
+					    cilium-cli
 						dart
 						fluxcd
 						ghostscript
