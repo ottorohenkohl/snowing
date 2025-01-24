@@ -24,6 +24,7 @@
 						jdk
 						nmap
 						podman
+						qflipper
 						speedtest-cli
 						texliveFull
 					];
