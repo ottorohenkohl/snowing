@@ -24,7 +24,6 @@
 						jdk
 						nmap
 						podman
-						qflipper
 						speedtest-cli
 						texliveFull
 					];
@@ -38,6 +37,7 @@
                             "intellij-idea"
                             "obsidian"
                             "pycharm"
+						    "qflipper"
                             "racket"
                             "webstorm"
                             "whatsapp"
